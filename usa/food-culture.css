@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #9ec8c3;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: #212a55;
+    border-radius: 5px;
+  }
+
+/* Header Section */
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Flavors Section */
+.flavors {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.flavors h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.food-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.food-item p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Beyond Borders Section */
+.american-soul {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.american-soul h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #212a55;
+}
+
+.american-soul p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.soul-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.soul-item {
+    text-align: center;
+}
+
+.soul-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.soul-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}

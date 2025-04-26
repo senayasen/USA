@@ -1,0 +1,94 @@
+body, html {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    height: 100%; /* Ensures body and html stretch fully */
+    overflow: hidden; /* Prevents scrolling if there’s extra content */
+    font-family: Arial, sans-serif;
+  }
+
+.navbar {
+    background-color: #9bc8ff;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: #212a55;
+    border-radius: 5px;
+  }
+  
+  .hero-section {
+    position: absolute;
+    height: 100vh; /* Fills the entire viewport height */
+    width: 100%; /* Spans the full width of the page */
+  }
+
+  .hero-text {
+    font-family: "Times New Roman", Times, serif; /* Ensures text is styled correctly */
+    position: absolute; /* Places text on top of the image */
+    top: 6%; /* Adjust vertical alignment */
+    left: 23%; /* Centers horizontally */
+    transform: translate(-30%, 20%); /* True centering */
+    text-align: LEFT;
+    color: rgb(255, 255, 255); /* Ensures text stands out on the background */
+    z-index: 1; /* Places text above the image */
+  }
+  
+  .hero-image {
+    position: absolute; /* Ensures it layers below the text */
+    width: 100%;
+    height: 100%;
+    filter: brightness(1); /* Keeps the image dimmed for better text visibility */
+    z-index: 1; /* Places image behind the text */
+  }
+  
+  .hero-text .discover {
+    font-size: 8Rem;
+    color: #212a55;
+    font-weight: normal;
+    text-align: left;
+
+  }
+  
+  .hero-text .the {
+    font-size: 8Rem;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .hero-text .usa-text {
+    font-size:13rem;
+    color:#700b11;
+    font-weight:bolder;
+    text-shadow: 0 0 10px #700b11, 0 0 20px #700b11, 0 0 30px #212a55(95, 66, 11), 0 0 40px #700b11;
+}
+
+   p{
+    color: #2d3764; /* Customize the color for "THE" */
+    font-size:-19rem;
+    font-style: italic;
+    margin-top: 7%;
+    margin-left: 2%;
+    font-family: Arial, sans-serif;
+  }  

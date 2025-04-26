@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures proper sizing of elements */
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #9ec8c3;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: #212a55;
+    border-radius: 5px;
+  }
+
+.nature-container { 
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-image: url("images/naturebg.jpg"); 
+    background-size: 100% 100%; 
+}
+
+.title {
+
+    font-size: 6em; /* Large font size for the main title */
+    text-align: center; /* Centers the text */
+    color: rgb(255, 255, 255); /* Sets the text color */
+    font-weight: bold; /* Makes the title text bold */
+    margin-top: 60px; /* Adds space below the title */
+    line-height: 1.2; /* Adjusts line spacing for multi-line text */
+  }
+  
+  .quote {
+    font-size: 1.3em; /* Slightly smaller font size for the quote */
+    text-align: center; /* Centers the quote text */
+    font-style: italic; /* Adds an italicized style for emphasis */
+    color: #ffffff; /* Medium-gray color for the quote */
+    margin-top: 30px;/* Adds space below the quote */
+    font-family: Arial,sans-serif;
+  }
+
+  .nature {
+    height: 100vh; /* Each city section takes up the full viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #Hawaii {
+    text-align: center; /* Centers all content in the section */
+    padding: 10px; /* Adds space inside the section */
+  }
+  
+  .nature-header {
+    margin-bottom: 20px; /* Adds spacing below the header */
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  #Hawaii h1 {
+    font-size: 3.5em; /* Adjusts the size of the main title */
+    color: rgb(255, 255, 255); /* Sets color for the main title */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 100px; /* Adds spacing from the top */
+    margin-bottom: 20px; /* Positive value to prevent overlapping */
+}
+
+#Hawaii h2 {
+    font-size: 1.3em; /* Adjusts the size of the subtitle */
+    color: rgb(255, 255, 255); /* Sets color for the subtitle */
+    font-weight: bold; /* Makes the subtitle bold */
+    margin-top: 10px; /* Provides reasonable spacing above */
+    margin-bottom: 20px; /* Prevents overlapping */
+}
+
+#Hawaii p {
+    font-size: 1.2em; /* Adjusts font size for the paragraph */
+    line-height: 1.5; /* Improves spacing between lines */
+    color: #ffffff; /* Sets text color */
+    margin-top: 30px; /* Reduced spacing above the paragraph */
+    font-family: Arial, sans-serif; /* Sets font style */
+}
+
+  
+  #Hawaii img {
+    width: 50%; /* Adjusts the size of the image */
+    height: 50%; /* Maintains the image aspect ratio */
+    margin-top: 50px; /*Adds spacing above the image */
+    border-radius: 10px; /* Gives rounded corners to the image */
+    box-shadow: 0 4px 10px rgba(228, 215, 215, 0.3); /* Adds shadow effect */
+   
+  }
+  
+  #Miami img {
+    width: 50%; /* Adjusts the size of the image */
+    height:50%; /* Maintains the image aspect ratio */
+    margin-top: 50px; /*Adds spacing above the image */
+    border-radius: 10px; /* Gives rounded corners to the image */
+    box-shadow: 0 4px 10px rgba(228, 215, 215, 0.3); /* Adds shadow effect */
+  }
+  
+  #Miami h1 {
+    font-size: 3.5em; /* Adjusts the size of the main title */
+    color: rgb(255, 255, 255); /* Sets color for the main title */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 100px; /* Adds spacing from the top */
+    margin-bottom: 20px; /* Positive value to prevent overlapping */
+}
+
+#Miami h2 {
+    font-size: 1.3em; /* Adjusts the size of the subtitle */
+    color: rgb(255, 255, 255); /* Sets color for the subtitle */
+    font-weight: bold; /* Makes the subtitle bold */
+    margin-top: 10px; /* Provides reasonable spacing above */
+    margin-bottom: 20px; /* Prevents overlapping */
+}
+
+#Miami p {
+    font-size: 1.2em; /* Adjusts font size for the paragraph */
+    line-height: 1.5; /* Improves spacing between lines */
+    color: #ffffff; /* Sets text color */
+    margin-top: 30px; /* Reduced spacing above the paragraph */
+    font-family: Arial, sans-serif; /* Sets font style */
+}
+
+  #SantaMonica img {
+    width: 50%; /* Adjusts the size of the image */
+    height: 50%; /* Maintains the image aspect ratio */
+    margin-top: 20px; /* Adds spacing above the image */
+    border-radius: 20px; /* Gives rounded corners to the image */
+    box-shadow: 0 4px 10px rgba(228, 215, 215, 0.3); /* Adds shadow effect */
+  }
+  
+  
+  #SantaMonica h1 {
+    font-size: 3.5em; /* Adjusts the size of the main title */
+    color: rgb(255, 255, 255); /* Sets color for the main title */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 100px; /* Adds spacing from the top */
+    margin-bottom: 20px; /* Positive value to prevent overlapping */
+}
+
+#SantaMonica h2 {
+    font-size: 1.3em; /* Adjusts the size of the subtitle */
+    color: rgb(255, 255, 255); /* Sets color for the subtitle */
+    font-weight: bold; /* Makes the subtitle bold */
+    margin-top: 10px; /* Provides reasonable spacing above */
+    margin-bottom: 20px; /* Prevents overlapping */
+}
+
+#SantaMonica p {
+    font-size: 1.2em; /* Adjusts font size for the paragraph */
+    line-height: 1.5; /* Improves spacing between lines */
+    color: #ffffff; /* Sets text color */
+    margin-top: 30px; /* Reduced spacing above the paragraph */
+    font-family: Arial, sans-serif; /* Sets font style */
+}
+  
+  .subtitle {
+    font-size: 1.3em; /* Adjusts size of the subtitle */
+    color: rgb(255, 255, 255); /* Sets color for the subtitle */
+    font-style: italic; /* Adds italic style to the subtitle */
+    margin-bottom: 20px; /* Adds space below the subtitle */
+  }
+  
+
+  html {
+    scroll-behavior: smooth;
+  }
