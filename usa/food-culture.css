@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffead1;
+    background-color: #1b334d;
 }
 
 .navbar {
@@ -116,29 +116,34 @@ body {
 .header h1 {
     position: absolute;
     top: 25%;
-    left: 18%;
+    left: 16%;
     transform: translate(-60%, -50%);
-    color: #19355b;
-    font-size: 7.3em;
-    letter-spacing: 4px;
-}
+    color: #f2d299;
+    font-size:10.7em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-style: italic;
 
+}
 
 /* Flavors Section */
 .flavors {
     margin-top: 2%;
     text-align: left;
-    padding:17 px 0; 
-    background-color: #ffead1; 
+    padding: 20px 0; 
+    background-color: #1b334d; 
 }
 
 .flavors h2 {
-    font-size: 1.5em;
-    color: #19355b; 
+    font-size: 1.7em;
+    color: #f2d299; 
     text-transform: uppercase; 
     letter-spacing: 0.1em;
     text-align: left; 
-    margin-left: -1%; 
+    margin-left: 1%; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
 }
 
 .food-item {
