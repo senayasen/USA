@@ -50,68 +50,41 @@ body {
     display: inline-block; 
 }
 
-.header h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 3em;
-    padding: 10px 20px; /* You can reduce or remove padding if needed */
-    border-radius: 10px;
-}
-
-.flavors {
-    padding: 50px; /* Increase padding for better section spacing */
-    background-color: #f9f9f9;
-}
-
-.flavors h2 {
-    text-align: center;
-    font-size: 2.5em; /* Larger section title font */
-    margin-bottom: 30px;
-    color: #333;
-    text-transform: uppercase; /* Add emphasis */
-    letter-spacing: 1px;
-}
-
 .food-item {
     display: flex;
     align-items: center;
-    margin-bottom: 30px; /* Add more space between items */
+    margin-bottom: 30px;
 }
 
 .food-item img {
-    width: 200px; /* Slightly larger images */
+    width: 200px; 
     height: auto;
     margin-right: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .food-item p {
-    font-size: 1.5em; /* Larger and clearer text */
+    font-size: 1.5em; 
     color: #555;
-    line-height: 1.6; /* Better readability */
+    line-height: 1.6; 
 }
 
 /* Beyond Borders Section */
 .american-soul {
-    padding: 40px; /* Add space to enhance section layout */
+    padding: 30px; 
     background-color: #ffead1;
     text-align: center;
 }
 
 .american-soul h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #212a55; /* Deep blue for emphasis */
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #212a55; 
 }
 
 .american-soul p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 30px;
     color: #555;
     line-height: 1.6;
@@ -136,7 +109,7 @@ body {
 }
 
 .soul-item h3 {
-    font-size: 1.8em; /* Larger titles for focus */
+    font-size:1.8em; /* Larger titles for focus */
     color: #333;
 
 }
@@ -153,29 +126,29 @@ body {
 
 /* Flavors Section */
 .flavors {
-    margin-top: 2%; /* Remove gap between header and subtitle */
+    margin-top: 2%;
     text-align: left;
-    padding:17 px 0; /* Add spacing around the subtitle */
-    background-color: #ffead1; /* Optional: subtle contrast with header */
+    padding:17 px 0; 
+    background-color: #ffead1; 
 }
 
 .flavors h2 {
-    font-size: 1.5em; /* Keep it prominent */
-    color: #19355b; /* Deep blue for consistency */
-    text-transform: uppercase; /* Ensure emphasis */
-    letter-spacing: 3px; /* Maintain spacing */
-    text-align: left; /* Align the subtitle to the left */
-    margin-left: -1%; /* Moves it slightly to the left */
+    font-size: 1.5em;
+    color: #19355b; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em;
+    text-align: left; 
+    margin-left: -1%; 
 }
 
 .food-item {
     display: flex;
     align-items: normal;
     margin-bottom: 30px;
-    background-color: #ffead1; /* Light section background */
+    background-color: #ffead1;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .food-item img {
