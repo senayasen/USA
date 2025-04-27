@@ -1,159 +1,89 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1b334d;
+    background-color: #051b30;
 }
 
 .navbar {
     background-color: #9ec8c3;
     color: white;
     text-align: center;
-  }
-  
-  .navbar ul {
+}
+
+.navbar ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
     margin: 0;
-  }
-  
-  .navbar li {
+}
+
+.navbar li {
     margin: 0 10px;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
     display: inline-block;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     background-color: white;
     color: #212a55;
     border-radius: 5px;
-  }
+}
 
-  .header {
+.header {
     position: relative;
-    text-align: right;
+    width: 100%;
+    background-color: #051b30;
+    overflow: hidden;
 }
 
 .header img {
-    width: 50%;
-    height:60%;
-    margin-top: 8.3%; 
-    margin-right: -1%;
-    object-position: right;
-    display: inline-block; 
+    width: 40%;
+    height: auto;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    position: absolute;
+    top: 18%;
+    left: 1.5%;
+    color: #f2d299;
+    font-size: 6.8em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-style: italic;
+    z-index: 2;
+}
+
+.header .flavors {
+    position: absolute;
+    margin: 450px 0 0 0;
+    color: #f2d299;
+    font-size: 1.3em;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    left: 10%;
+    text-align: left;
+    z-index: 2;
 }
 
 .food-item {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-}
-
-.food-item img {
-    width: 200px; 
-    height: auto;
-    margin-right: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-}
-
-.food-item p {
-    font-size: 1.5em; 
-    color: #555;
-    line-height: 1.6; 
-}
-
-/* Beyond Borders Section */
-.american-soul {
-    padding: 30px; 
-    background-color: #ffead1;
-    text-align: center;
-}
-
-.american-soul h2 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    color: #212a55; 
-}
-
-.american-soul p {
-    font-size: 1.3em;
-    margin-bottom: 30px;
-    color: #555;
-    line-height: 1.6;
-}
-
-.soul-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid spacing */
-    gap: 30px; /* Larger gap for better visual flow */
-}
-
-.soul-item {
-    text-align: center;
-}
-
-.soul-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px; /* Rounded corners for a modern touch */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Enhanced shadow for depth */
-    margin-top: 15px;
-}
-
-.soul-item h3 {
-    font-size:1.8em; /* Larger titles for focus */
-    color: #333;
-
-}
-.header h1 {
-    position: absolute;
-    top: 25%;
-    left: 16%;
-    transform: translate(-60%, -50%);
-    color: #f2d299;
-    font-size:10.7em;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 3px;
-    font-weight: lighter;
-    font-style: italic;
-
-}
-
-/* Flavors Section */
-.flavors {
-    margin-top: 2%;
-    text-align: left;
-    padding: 20px 0; 
-    background-color: #1b334d; 
-}
-
-.flavors h2 {
-    font-size: 1.7em;
-    color: #f2d299; 
-    text-transform: uppercase; 
-    letter-spacing: 0.1em;
-    text-align: left; 
-    margin-left: 1%; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-}
-
-.food-item {
-    display: flex;
-    align-items: normal;
-    margin-bottom: 30px;
-    background-color: #ffead1;
+    background-color: #051b30;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .food-item img {
@@ -161,26 +91,26 @@ body {
     height: auto;
     margin-right: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(235, 235, 193, 0.723);
 }
 
 .food-item p {
     font-size: 1.5em;
-    color: #555;
+    color: #f2d299;
     line-height: 1.6;
 }
 
-/* Beyond Borders Section */
 .american-soul {
     padding: 40px;
-    background-color: #ffead1;
+    background-color: #051b30;
     text-align: center;
+    margin: 0;
 }
 
 .american-soul h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #212a55;
+    color: #f2d299;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -188,7 +118,7 @@ body {
 .american-soul p {
     font-size: 1.5em;
     margin-bottom: 30px;
-    color: #555;
+    color: #f2d299;
     line-height: 1.6;
 }
 
@@ -212,6 +142,6 @@ body {
 
 .soul-item h3 {
     font-size: 1.8em;
-    color: #333;
+    color: #f2d299;
     text-transform: uppercase;
 }
