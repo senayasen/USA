@@ -35,14 +35,14 @@ body {
     border-radius: 5px;
   }
 
-.header {
+  .header {
     position: relative;
     text-align: center;
 }
 
 .header img {
     width: 100%;
-    height: auto;
+    height:100%;  
 }
 
 .header h1 {
@@ -52,65 +52,70 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 3em;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
+    padding: 10px 20px; /* You can reduce or remove padding if needed */
     border-radius: 5px;
 }
 
 .flavors {
-    padding: 20px;
+    padding: 40px; /* Increase padding for better section spacing */
     background-color: #f9f9f9;
 }
 
 .flavors h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em; /* Larger section title font */
     margin-bottom: 30px;
     color: #333;
+    text-transform: uppercase; /* Add emphasis */
+    letter-spacing: 1px;
 }
 
 .food-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Add more space between items */
 }
 
 .food-item img {
-    width: 150px;
+    width: 200px; /* Slightly larger images */
     height: auto;
     margin-right: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
 }
 
 .food-item p {
-    font-size: 1.2em;
+    font-size: 1.5em; /* Larger and clearer text */
     color: #555;
+    line-height: 1.6; /* Better readability */
 }
 
 /* Beyond Borders Section */
 .american-soul {
-    padding: 20px;
+    padding: 40px; /* Add space to enhance section layout */
     background-color: #ffffff;
     text-align: center;
 }
 
 .american-soul h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-    color: #212a55;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #212a55; /* Deep blue for emphasis */
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .american-soul p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 30px;
     color: #555;
+    line-height: 1.6;
 }
 
 .soul-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid spacing */
+    gap: 30px; /* Larger gap for better visual flow */
 }
 
 .soul-item {
@@ -120,12 +125,109 @@ body {
 .soul-item img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
+    border-radius: 15px; /* Rounded corners for a modern touch */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Enhanced shadow for depth */
+    margin-bottom: 15px;
 }
 
 .soul-item h3 {
-    font-size: 1.5em;
+    font-size: 1.8em; /* Larger titles for focus */
     color: #333;
+}.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em; /* Larger font for the title */
+    background: rgba(0, 0, 0, 0.5); /* Subtle overlay for better text contrast */
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-transform: uppercase; /* Strong, bold look */
+    letter-spacing: 2px;
+}
+
+/* Flavors Section */
+.flavors {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.flavors h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #212a55;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #f9f9f9; /* Light section background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.food-item img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.food-item p {
+    font-size: 1.5em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Beyond Borders Section */
+.american-soul {
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.american-soul h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #212a55;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.american-soul p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.soul-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.soul-item {
+    text-align: center;
+}
+
+.soul-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Enhance depth */
+    margin-bottom: 15px;
+}
+
+.soul-item h3 {
+    font-size: 1.8em;
+    color: #333;
+    text-transform: uppercase;
 }
