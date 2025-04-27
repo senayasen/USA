@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffead1;
 }
 
 .navbar {
@@ -93,7 +94,7 @@ body {
 /* Beyond Borders Section */
 .american-soul {
     padding: 40px; /* Add space to enhance section layout */
-    background-color: #ffffff;
+    background-color: #ffead1;
     text-align: center;
 }
 
@@ -150,7 +151,7 @@ body {
 /* Flavors Section */
 .flavors {
     padding: 40px;
-    background-color: #fff;
+    background-color: #ffead1;
 }
 
 .flavors h2 {
@@ -166,7 +167,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    background-color: #f9f9f9; /* Light section background */
+    background-color: #ffead1; /* Light section background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -189,7 +190,7 @@ body {
 /* Beyond Borders Section */
 .american-soul {
     padding: 40px;
-    background-color: #f7f7f7;
+    background-color: #ffead1;
     text-align: center;
 }
 
