@@ -1,107 +1,98 @@
-/* styles.css */
- 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Ensures proper sizing of elements */
-  }
-  
-  
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-  }
-
-  .navbar {
-    background-color: #0c363f;
-    color: white;
-    text-align: center;
-  }
-  
-  
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-  
-  .navbar li {
-    margin: 0 10px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-  }
-  
-  .navbar a:hover {
-    background-color: white;
-    color: #212a55;
-    border-radius: 5px;
-  }
-
-
-.culture-container {
-    width: 100%;
-    position: absolute;
-    background-image: url("images/citybg.jpg"); 
-    background-size: 100% 100%; 
-    color: #ffffff;
-    margin-top: 0%;
-}
-
-.american-soul {
-  padding: 40px;
-  background-color: #051b30;
-  text-align: center;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures elements size properly */
 }
 
-.american-soul h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  color: #f2d299;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+body, html {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Clean and modern font */
+  background-color: #f9f9f9; /* Light background */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
 }
 
-.american-soul p {
-  font-size: 1.5em;
-  margin-bottom: 30px;
-  color: #f2d299;
-  line-height: 1.6;
-}
-
-.soul-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-}
-
-.soul-item {
+/* Navbar */
+.navbar {
+  background-color: #5a252b; /* Dark teal background */
+  color: white;
   text-align: center;
+  padding: 15px 0; /* Adds vertical padding */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.soul-item img {
-  width: 67%;
-  height: 70%;
-  border-radius: 15px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 15px;
+.navbar ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Aligns links horizontally */
+  justify-content: center;
 }
 
-.soul-item h3 {
-  font-size: 1.8em;
-  color: #f2d299;
-  text-transform: uppercase;
+.navbar li {
+  margin: 0 15px; /* Space between items */
 }
-  html {
-    scroll-behavior: smooth;
-  }
-  
+
+.navbar a {
+  text-decoration: none; /* Removes underline */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded edges for hover effect */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #212a55; /* Matches the aesthetic */
+}
+
+/* Culture Section */
+.culture {
+  padding: 50px 20px;
+  background-color: #1e2021; /* Clean white background */
+}
+
+/* Title Styling */
+.title {
+  font-size: 6em; /* Large, prominent title */
+  color: #dabf8c; /* Dark gray for readability */
+  text-align: center;
+  margin-bottom: 20px;  
+  padding: 7%;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* Festival Text */
+h2 {
+  font-size: 1.5em; /* Heading size for emphasis */
+  color: #5a252b;
+  margin-bottom: 20px;
+}
+
+/* Festival Blocks */
+.Festival {
+  display: flex; /* Align image and text side by side */
+  align-items: flex-start; /* Align items at the top */
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: #fffaf0; /* Light gray background for festival block */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px #dabf8c(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Festival Image */
+.Festival img {
+  width: 250px; /* Fixed image size */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and text */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for emphasis */
+}
+
+
+.Festival p {
+  font-size: 1.1em; /* Standard paragraph size */
+  color: #5a252b;
+  line-height: 1.6; /* Improves readability */
+  margin-top: 3%;
+} 
