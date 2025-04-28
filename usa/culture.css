@@ -47,7 +47,7 @@
   }
 
 
-.cities-container {
+.culture-container {
     width: 100%;
     position: absolute;
     background-image: url("images/citybg.jpg"); 
@@ -56,150 +56,51 @@
     margin-top: 0%;
 }
 
-
-.title {
-
-    font-size: 3em; /* Large font size for the main title */
-    text-align: left; /* Centers the text */
-    color: rgb(255, 255, 255); /* Sets the text color */
-    font-weight: bold; /* Makes the title text bold */
-    margin-top: 30px; /* Adds space below the title */
-    line-height: 1.2; /* Adjusts line spacing for multi-line text */
-    margin-left: 2%;
-  }
-  
-  .quote {
-    font-size: 1em; /* Slightly smaller font size for the quote */
-    text-align: left; /* Centers the quote text */
-    font-style: italic; /* Adds an italicized style for emphasis */
-    color: #ffffff; /* Medium-gray color for the quote */
-    margin-top: 30px;/* Adds space below the quote */
-    margin-left: 2%;
-    font-family: Arial,sans-serif;
-  }
-
-  .city {
-    height: 100vh; /* Each city section takes up the full viewport */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  #new-york {
-    text-align: center; /* Centers all content in the section */
-    padding: 20px; /* Adds space inside the section */
-  }
-  
-  .city-header {
-    margin-bottom: 20px; /* Adds spacing below the header */
-    font-family:Arial, Helvetica, sans-serif;
-  }
-  
-#new-york h1 {
-    font-size: 3.5em; /* Adjusts the size of the main title */
-    color: rgb(255, 255, 255); /* Sets color for the main title */
-    font-weight: bold; /* Makes the text bold */
-    margin-top: 100px; /* Adds spacing from the top */
-    margin-bottom: 20px; /* Positive value to prevent overlapping */
+.american-soul {
+  padding: 40px;
+  background-color: #051b30;
+  text-align: center;
+  margin: 0;
 }
 
-#new-york h2 {
-    font-size: 1.3em; /* Adjusts the size of the subtitle */
-    color: rgb(255, 255, 255); /* Sets color for the subtitle */
-    font-weight: bold; /* Makes the subtitle bold */
-    margin-top: 10px; /* Provides reasonable spacing above */
-    margin-bottom: 20px; /* Prevents overlapping */
+.american-soul h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f2d299;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-#new-york p {
-    font-size: 1.2em; /* Adjusts font size for the paragraph */
-    line-height: 1.5; /* Improves spacing between lines */
-    color: #ffffff; /* Sets text color */
-    margin-top: 30px; /* Reduced spacing above the paragraph */
-    font-family: Arial, sans-serif; /* Sets font style */
-}
-#new-york img {
-    width: 50%; /* Adjusts the size of the image */
-    height: 60%; /* Maintains the image aspect ratio */
-    margin-top: 20px; /* Adds spacing above the image */
-    border-radius: 20px; /* Gives rounded corners to the image */
-    box-shadow: 0 4px 10px rgba(228, 215, 215, 0.3); /* Adds shadow effect */
-  }
-  
- #lasvegas h1 {
-    font-size: 3.5em; /* Adjusts the size of the main title */
-    color: rgb(255, 255, 255); /* Sets color for the main title */
-    font-weight: bold; /* Makes the text bold */
-    margin-top: 100px; /* Adds spacing from the top */
-    margin-bottom: 20px; /* Positive value to prevent overlapping */
+.american-soul p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  color: #f2d299;
+  line-height: 1.6;
 }
 
-#lasvegas h2 {
-    font-size: 1.3em; /* Adjusts the size of the subtitle */
-    color: rgb(255, 255, 255); /* Sets color for the subtitle */
-    font-weight: bold; /* Makes the subtitle bold */
-    margin-top: 10px; /* Provides reasonable spacing above */
-    margin-bottom: 20px; /* Prevents overlapping */
+.soul-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
 }
 
-#lasvegas p {
-    font-size: 1.2em; /* Adjusts font size for the paragraph */
-    line-height: 1.5; /* Improves spacing between lines */
-    color: #ffffff; /* Sets text color */
-    margin-top: 30px; /* Reduced spacing above the paragraph */
-    font-family: Arial, sans-serif; /* Sets font style */
+.soul-item {
+  text-align: center;
 }
 
-#lasvegas img {
-    width: 50%; /* Adjusts the size of the image */
-    height: 60%; /* Maintains the image aspect ratio */
-    margin-top: 20px; /* Adds spacing above the image */
-    border-radius: 20px; /* Gives rounded corners to the image */
-    box-shadow: 0 4px 10px rgba(228, 215, 215, 0.3); /* Adds shadow effect */
-  }
-  
-#chicago h1 {
-    font-size: 3.5em; /* Adjusts the size of the main title */
-    color: rgb(255, 255, 255); /* Sets color for the main title */
-    font-weight: bold; /* Makes the text bold */
-    margin-top: 100px; /* Adds spacing from the top */
-    margin-bottom: 20px; /* Positive value to prevent overlapping */
+.soul-item img {
+  width: 67%;
+  height: 70%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 
-#chicago h2 {
-    font-size: 1.3em; /* Adjusts the size of the subtitle */
-    color: rgb(255, 255, 255); /* Sets color for the subtitle */
-    font-weight: bold; /* Makes the subtitle bold */
-    margin-top: 10px; /* Provides reasonable spacing above */
-    margin-bottom: 20px; /* Prevents overlapping */
+.soul-item h3 {
+  font-size: 1.8em;
+  color: #f2d299;
+  text-transform: uppercase;
 }
-
-#chicago p {
-    font-size: 1.2em; /* Adjusts font size for the paragraph */
-    line-height: 1.5; /* Improves spacing between lines */
-    color: #ffffff; /* Sets text color */
-    margin-top: 30px; /* Reduced spacing above the paragraph */
-    font-family: Arial, sans-serif; /* Sets font style */
-}
-
-  #chicago img {
-    width: 50%; /* Adjusts the size of the image */
-    height: 60%; /* Maintains the image aspect ratio */
-    margin-top: 20px; /* Adds spacing above the image */
-    border-radius: 20px; /* Gives rounded corners to the image */
-    box-shadow: 0 4px 10px rgba(228, 215, 215, 0.3); /* Adds shadow effect */
-  }
-
-  .subtitle {
-    font-size: 1.3em; /* Adjusts size of the subtitle */
-    color: rgb(255, 255, 255); /* Sets color for the subtitle */
-    font-style: italic; /* Adds italic style to the subtitle */
-    margin-bottom: 20px; /* Adds space below the subtitle */
-  }
-
   html {
     scroll-behavior: smooth;
   }
